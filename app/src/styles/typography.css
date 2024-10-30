@@ -1,0 +1,31 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @apply font-fancy;
+
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h1,
+h2 {
+    text-align: left;
+}
+
+p,
+ul,
+ol {
+    font-size: 1.25rem;
+    font-weight: 400;
+    @apply font-sans;
+}
+
+.small {
+    font-size: 0.75rem;
+}

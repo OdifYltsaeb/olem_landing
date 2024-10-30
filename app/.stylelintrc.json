@@ -1,0 +1,49 @@
+{
+    "extends": [
+        "stylelint-config-recommended-scss",
+        "stylelint-config-standard-scss",
+        "stylelint-config-prettier-scss"
+    ],
+    "customSyntax": "postcss-scss",
+    "plugins": ["stylelint-prettier"],
+    "rules": {
+        "prettier/prettier": true,
+        "alpha-value-notation": "number",
+        "color-hex-length": "long",
+        "at-rule-empty-line-before": [
+            "always",
+            {
+                "except": ["inside-block", "after-same-name"],
+                "ignore": ["after-comment"],
+                "ignoreAtRules": ["font-face", "mixin"]
+            }
+        ],
+        "import-notation": null,
+        "no-descending-specificity": null,
+        "selector-pseudo-element-colon-notation": "single",
+        "selector-class-pattern": "[a-z]+(_)?[a-z]+",
+        "declaration-empty-line-before": [
+            "always",
+            {
+                "except": ["first-nested", "after-comment"],
+                "ignore": ["after-declaration"]
+            }
+        ],
+        "scss/at-rule-no-unknown": [
+            true,
+            {
+                "ignoreAtRules": [
+                    "include",
+                    "mixin",
+                    "for",
+                    "each",
+                    "extend",
+                    "tailwind",
+                    "apply",
+                    "variants",
+                    "screen"
+                ]
+            }
+        ]
+    }
+}

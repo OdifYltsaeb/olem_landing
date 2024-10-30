@@ -1,0 +1,15 @@
+.env
+.idea/
+
+.sass-cache/
+yarn-error.log
+node_modules/
+venv/
+.cache/
+
+.data*/
+
+# Node Project files
+app/build/
+app/cache/
+app/coverage/

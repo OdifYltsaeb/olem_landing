@@ -1,0 +1,12 @@
+@keyframes loader {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.animate {
+    animation: loader 2s linear infinite;
+}

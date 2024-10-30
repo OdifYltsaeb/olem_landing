@@ -1,0 +1,21 @@
+# Docker compose configuration for production
+
+x-common-spec: &common-spec
+  env_file: .env
+  restart: unless-stopped
+  volumes:
+    - &logs-volume "/var/log/olem_landing:/var/log/olem_landing"
+
+services:
+  node:
+    <<: *common-spec
+    build:
+      context: .
+      dockerfile: Dockerfile-node.production
+    container_name: olem_landing_node
+    ports:
+      - "${PORT:-7000}:${PORT:-8000}"
+    command: yarn start
+    volumes:
+      - "/var/lib/docker-nginx/files/olem_landing/app/assets:/files/assets"
+      - *logs-volume

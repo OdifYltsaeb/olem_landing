@@ -1,0 +1,33 @@
+.compass {
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-color: currentcolor;
+        mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid meet"><circle cx="200" cy="200" r="150" stroke="currentColor" stroke-width="4" fill="none"/><text x="200" y="35" font-size="16" text-anchor="middle" font-family="Arial" fill="currentColor">0</text><text x="280" y="60" font-size="16" text-anchor="middle" font-family="Arial" fill="currentColor">30</text><text x="345" y="120" font-size="16" text-anchor="middle" font-family="Arial" fill="currentColor">60</text><text x="365" y="205" font-size="16" text-anchor="middle" font-family="Arial" fill="currentColor">90</text><text x="345" y="290" font-size="16" text-anchor="middle" font-family="Arial" fill="currentColor">120</text><text x="280" y="350" font-size="16" text-anchor="middle" font-family="Arial" fill="currentColor">150</text><text x="200" y="370" font-size="16" text-anchor="middle" font-family="Arial" fill="currentColor">180</text><text x="120" y="350" font-size="16" text-anchor="middle" font-family="Arial" fill="currentColor">210</text><text x="55" y="290" font-size="16" text-anchor="middle" font-family="Arial" fill="currentColor">240</text><text x="30" y="205" font-size="16" text-anchor="middle" font-family="Arial" fill="currentColor">270</text><text x="55" y="120" font-size="16" text-anchor="middle" font-family="Arial" fill="currentColor">300</text><text x="120" y="60" font-size="16" text-anchor="middle" font-family="Arial" fill="currentColor">330</text><text x="200" y="85" font-size="30" text-anchor="middle" font-family="Arial" font-weight="bold" fill="currentColor">N</text><text x="200" y="335" font-size="30" text-anchor="middle" font-family="Arial" font-weight="bold" fill="currentColor">S</text><text x="330" y="210" font-size="30" text-anchor="middle" font-family="Arial" font-weight="bold" fill="currentColor">E</text><text x="75" y="210" font-size="30" text-anchor="middle" font-family="Arial" font-weight="bold" fill="currentColor">W</text></svg>');
+        background-position: center;
+        background-repeat: no-repeat;
+        mask-size: cover;
+        mask-repeat: no-repeat;
+        mask-position: center;
+        z-index: -1;
+    }
+}
+
+.windangle {
+    &:before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-color: currentcolor;
+        mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400"><path fill="currentColor" d="m200 60 15-25h-30z"/></svg>');
+        background-position: center;
+        background-repeat: no-repeat;
+        mask-size: cover;
+        mask-repeat: no-repeat;
+        mask-position: center;
+        z-index: -1;
+    }
+}

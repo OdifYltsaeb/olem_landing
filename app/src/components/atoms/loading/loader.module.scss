@@ -1,0 +1,66 @@
+.bars {
+    /* https://codepen.io/saconway/pen/vYKYyrx */
+    --size-lg: 100px;
+    --size-md: 60px;
+    --size-sm: 30px;
+    --gap-lg: 6px;
+    --gap-md: 4px;
+    --gap-sm: 2px;
+    --animation-duration: 1000ms;
+    width: var(--size-md);
+    height: var(--size-md);
+    gap: var(--gap-md);
+
+    @apply flex justify-center items-center;
+
+    &.lg {
+        width: var(--size-lg);
+        height: var(--size-lg);
+        gap: var(--gap-lg);
+    }
+
+    &.md {
+        width: var(--size-md);
+        height: var(--size-md);
+        gap: var(--gap-md);
+    }
+
+    &.sm {
+        width: var(--size-sm);
+        height: var(--size-sm);
+        gap: var(--gap-sm);
+    }
+
+    .bar {
+        @apply bg-base-100;
+        height: 50%;
+        width: 3px;
+        animation: spinner5 var(--animation-duration) ease-in-out infinite;
+
+        @keyframes spinner5 {
+            25% {
+                transform: scaleY(2);
+            }
+
+            50% {
+                transform: scaleY(1);
+            }
+        }
+    }
+
+    .bar:nth-child(2) {
+        animation-delay: calc(var(--animation-duration) / 10);
+    }
+
+    .bar:nth-child(3) {
+        animation-delay: calc(var(--animation-duration) / 10 * 2);
+    }
+
+    .bar:nth-child(4) {
+        animation-delay: calc(var(--animation-duration) / 10 * 3);
+    }
+
+    .bar:nth-child(5) {
+        animation-delay: calc(var(--animation-duration) / 10 * 4);
+    }
+}
