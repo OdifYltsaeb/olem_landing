@@ -1,7 +1,27 @@
 {
-  "commit": "3ac517549c8425d824153fcd455f97213cf6a1d2",
-  "generated": "Thu, 31 Oct 2024 13:43:39 GMT",
+  "commit": "84a5eeccf7473de359cf77f97b0873b1a6129404",
+  "generated": "Thu, 31 Oct 2024 13:44:17 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "878ca714a9d0f2e01550062855f857179ef8679a",
+        "hash": "3567651247",
+        "path": "outstatic/content/blocks/landing-main-hero-block.md"
+      },
+      "author": {
+        "name": "Alan",
+        "picture": "https://avatars.githubusercontent.com/u/212621?v=4"
+      },
+      "buttonLink": "#stuff",
+      "buttonText": "Get started",
+      "collection": "blocks",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-10-31T12:01:36.766Z",
+      "slug": "landing-main-hero-block",
+      "status": "published",
+      "title": "Main hero block"
+    },
     {
       "__outstatic": {
         "commit": "8edf05774d05174a68e8908cf491f7420a4cd684",
@@ -25,8 +45,8 @@
     },
     {
       "__outstatic": {
-        "commit": "75f467514e266abe055d4970dff21ed0d6daa336",
-        "hash": "4224278696",
+        "commit": "7f073c95b147d028676445d6549f39f5070f03f6",
+        "hash": "173343009",
         "path": "outstatic/content/blocks/landing-main-landing-content.md"
       },
       "author": {
@@ -42,26 +62,6 @@
       "slug": "landing-main-landing-content",
       "status": "published",
       "title": "Main landing content"
-    },
-    {
-      "__outstatic": {
-        "commit": "878ca714a9d0f2e01550062855f857179ef8679a",
-        "hash": "3567651247",
-        "path": "outstatic/content/blocks/landing-main-hero-block.md"
-      },
-      "author": {
-        "name": "Alan",
-        "picture": "https://avatars.githubusercontent.com/u/212621?v=4"
-      },
-      "buttonLink": "#stuff",
-      "buttonText": "Get started",
-      "collection": "blocks",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-10-31T12:01:36.766Z",
-      "slug": "landing-main-hero-block",
-      "status": "published",
-      "title": "Main hero block"
     }
   ]
 }
