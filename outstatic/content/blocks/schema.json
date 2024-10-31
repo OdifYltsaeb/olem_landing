@@ -1,0 +1,13 @@
+{
+  "title": "blocks",
+  "type": "object",
+  "properties": {
+    "buttonText": {
+      "required": false,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "button_text"
+    }
+  }
+}
