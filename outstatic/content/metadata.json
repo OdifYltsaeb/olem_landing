@@ -1,0 +1,67 @@
+{
+  "commit": "858ee246ebd6566c9b3a46590bc3896f42a37347",
+  "generated": "Thu, 31 Oct 2024 12:19:10 GMT",
+  "metadata": [
+    {
+      "__outstatic": {
+        "commit": "c86423ba0bc18172fe84bffd61fce12483521b8d",
+        "hash": "1577887724",
+        "path": "outstatic/content/blocks/main-landing-content.md"
+      },
+      "author": {
+        "name": "Alan",
+        "picture": "https://avatars.githubusercontent.com/u/212621?v=4"
+      },
+      "buttonLink": "",
+      "buttonText": "",
+      "collection": "blocks",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-10-31T12:15:18.930Z",
+      "slug": "main-landing-content",
+      "status": "published",
+      "title": "Main-landing-content"
+    },
+    {
+      "__outstatic": {
+        "commit": "8edf05774d05174a68e8908cf491f7420a4cd684",
+        "hash": "71398225",
+        "path": "outstatic/content/pages/test-landing.md"
+      },
+      "author": {
+        "name": "Alan",
+        "picture": "https://avatars.githubusercontent.com/u/212621?v=4"
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-10-31T11:56:40.420Z",
+      "seoDescription": "",
+      "seoKeywords": "",
+      "seoTitle": "",
+      "slug": "test-landing",
+      "status": "published",
+      "title": "Test Landing"
+    },
+    {
+      "__outstatic": {
+        "commit": "9f4bedf32a88ed23f141ea571aeeddf1bcfb9599",
+        "hash": "982730930",
+        "path": "outstatic/content/blocks/main-hero-block.md"
+      },
+      "author": {
+        "name": "Alan",
+        "picture": "https://avatars.githubusercontent.com/u/212621?v=4"
+      },
+      "buttonLink": "#stuff",
+      "buttonText": "Get started",
+      "collection": "blocks",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-10-31T12:01:36.766Z",
+      "slug": "main-hero-block",
+      "status": "published",
+      "title": "Main hero block"
+    }
+  ]
+}
