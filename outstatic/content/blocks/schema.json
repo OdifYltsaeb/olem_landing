@@ -8,6 +8,13 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "button_text"
+    },
+    "buttonLink": {
+      "required": false,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "button_link"
     }
   }
 }
