@@ -14,4 +14,8 @@ publishedAt: '2024-10-31T12:15:18.930Z'
 
 Are you tired of this or that?
 
-crap. Sucks to be you.
+Ohwell let's add some bullet points
+
+- stuff
+- things
+- more
