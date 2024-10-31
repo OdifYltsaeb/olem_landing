@@ -4,7 +4,7 @@ status: 'published'
 author:
   name: 'Alan'
   picture: 'https://avatars.githubusercontent.com/u/212621?v=4'
-slug: 'main-hero-block'
+slug: 'landing-main-hero-block'
 description: ''
 coverImage: ''
 buttonText: 'Get started'

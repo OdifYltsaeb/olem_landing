@@ -1,6 +1,6 @@
 {
-  "commit": "858ee246ebd6566c9b3a46590bc3896f42a37347",
-  "generated": "Thu, 31 Oct 2024 12:19:10 GMT",
+  "commit": "5a21404f3320fea832af5f970c5b11804f4e0ffd",
+  "generated": "2024-10-31T12:34:01.858Z",
   "metadata": [
     {
       "__outstatic": {
@@ -45,9 +45,9 @@
     },
     {
       "__outstatic": {
-        "commit": "9f4bedf32a88ed23f141ea571aeeddf1bcfb9599",
-        "hash": "982730930",
-        "path": "outstatic/content/blocks/main-hero-block.md"
+        "commit": "5a21404f3320fea832af5f970c5b11804f4e0ffd",
+        "hash": "3567651247",
+        "path": "outstatic/content/blocks/landing-main-hero-block.md"
       },
       "author": {
         "name": "Alan",
@@ -59,7 +59,7 @@
       "coverImage": "",
       "description": "",
       "publishedAt": "2024-10-31T12:01:36.766Z",
-      "slug": "main-hero-block",
+      "slug": "landing-main-hero-block",
       "status": "published",
       "title": "Main hero block"
     }
