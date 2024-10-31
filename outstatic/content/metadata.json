@@ -1,7 +1,47 @@
 {
-  "commit": "fb93ff235cda0b451d70f27c72f590043b37a8f6",
-  "generated": "2024-10-31T12:34:24.523Z",
+  "commit": "46a310a3efc1d3968eaf4855ad46abea1f5bad37",
+  "generated": "Thu, 31 Oct 2024 12:38:23 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "75f467514e266abe055d4970dff21ed0d6daa336",
+        "hash": "4224278696",
+        "path": "outstatic/content/blocks/landing-main-landing-content.md"
+      },
+      "author": {
+        "name": "Alan",
+        "picture": "https://avatars.githubusercontent.com/u/212621?v=4"
+      },
+      "buttonLink": "",
+      "buttonText": "",
+      "collection": "blocks",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-10-31T12:15:18.930Z",
+      "slug": "landing-main-landing-content",
+      "status": "published",
+      "title": "Main landing content"
+    },
+    {
+      "__outstatic": {
+        "commit": "878ca714a9d0f2e01550062855f857179ef8679a",
+        "hash": "3567651247",
+        "path": "outstatic/content/blocks/landing-main-hero-block.md"
+      },
+      "author": {
+        "name": "Alan",
+        "picture": "https://avatars.githubusercontent.com/u/212621?v=4"
+      },
+      "buttonLink": "#stuff",
+      "buttonText": "Get started",
+      "collection": "blocks",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-10-31T12:01:36.766Z",
+      "slug": "landing-main-hero-block",
+      "status": "published",
+      "title": "Main hero block"
+    },
     {
       "__outstatic": {
         "commit": "8edf05774d05174a68e8908cf491f7420a4cd684",
@@ -22,46 +62,6 @@
       "slug": "test-landing",
       "status": "published",
       "title": "Test Landing"
-    },
-    {
-      "__outstatic": {
-        "commit": "5a21404f3320fea832af5f970c5b11804f4e0ffd",
-        "hash": "3567651247",
-        "path": "outstatic/content/blocks/landing-main-hero-block.md"
-      },
-      "author": {
-        "name": "Alan",
-        "picture": "https://avatars.githubusercontent.com/u/212621?v=4"
-      },
-      "buttonLink": "#stuff",
-      "buttonText": "Get started",
-      "collection": "blocks",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-10-31T12:01:36.766Z",
-      "slug": "landing-main-hero-block",
-      "status": "published",
-      "title": "Main hero block"
-    },
-    {
-      "__outstatic": {
-        "commit": "fb93ff235cda0b451d70f27c72f590043b37a8f6",
-        "hash": "4224278696",
-        "path": "outstatic/content/blocks/landing-main-landing-content.md"
-      },
-      "author": {
-        "name": "Alan",
-        "picture": "https://avatars.githubusercontent.com/u/212621?v=4"
-      },
-      "buttonLink": "",
-      "buttonText": "",
-      "collection": "blocks",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-10-31T12:15:18.930Z",
-      "slug": "landing-main-landing-content",
-      "status": "published",
-      "title": "Main landing content"
     }
   ]
 }
