@@ -7,6 +7,8 @@ author:
 slug: 'main-hero-block'
 description: ''
 coverImage: ''
+buttonText: 'Get started'
+buttonLink: '#stuff'
 publishedAt: '2024-10-31T12:01:36.766Z'
 ---
 
