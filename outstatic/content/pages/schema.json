@@ -1,0 +1,13 @@
+{
+  "title": "pages",
+  "type": "object",
+  "properties": {
+    "seoTitle": {
+      "required": false,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "seo_title"
+    }
+  }
+}
