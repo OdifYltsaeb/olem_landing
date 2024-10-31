@@ -1,10 +1,10 @@
 ---
-title: 'Main-landing-content'
+title: 'Main landing content'
 status: 'published'
 author:
   name: 'Alan'
   picture: 'https://avatars.githubusercontent.com/u/212621?v=4'
-slug: 'main-landing-content'
+slug: 'landing-main-landing-content'
 description: ''
 coverImage: ''
 buttonText: ''
