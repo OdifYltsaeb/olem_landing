@@ -1,6 +1,6 @@
 ---
 title: 'Main hero block'
-status: 'draft'
+status: 'published'
 author:
   name: 'Alan'
   picture: 'https://avatars.githubusercontent.com/u/212621?v=4'
