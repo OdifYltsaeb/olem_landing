@@ -1,9 +1,11 @@
 import HomeLayout from 'components/atoms/HomeLayout';
+import ToastProvider from 'components/atoms/ToastProvider';
 
 export default function Layout({ children }) {
     return (
-        <HomeLayout>
-            {children}
-        </HomeLayout>
+        <>
+            <ToastProvider />
+            <HomeLayout>{children}</HomeLayout>
+        </>
     );
 }

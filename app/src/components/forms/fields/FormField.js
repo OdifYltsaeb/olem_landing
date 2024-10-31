@@ -3,7 +3,6 @@ import React from 'react';
 import { connect, getIn } from 'formik';
 import classNames from 'classnames';
 import { twMerge } from 'tailwind-merge';
-import GameTagField from './GameTagField';
 
 const FormField = function ({
     name,
@@ -100,26 +99,6 @@ const FormField = function ({
                     <option key={`option-${option.value}`} value={option.value} label={option.label} />
                 ))}
             </select>
-        );
-    }
-
-    if (type === 'battletag') {
-        input = (
-            <GameTagField
-                {...otherProps}
-                name={name}
-                value={value || ''}
-                ref={reactRef}
-                touched={`${touched}`}
-                onChange={(e) => {
-                    formik.handleChange(e);
-                    onChange(e);
-                }}
-                onBlur={formik.handleBlur}
-                className={classNames(inputClasses, 'input input-bordered', {
-                    'input-error': !!(touched && error),
-                })}
-            />
         );
     }
 

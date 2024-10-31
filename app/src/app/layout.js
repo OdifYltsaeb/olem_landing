@@ -1,4 +1,3 @@
-import ToastProvider from 'components/atoms/ToastProvider';
 import 'react-toastify/dist/ReactToastify.css';
 
 import 'styles/index.css';
@@ -11,15 +10,12 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-    const getTheme = () => {
-        return 'emerald';
-    };
+    const getTheme = () => 'emerald';
 
     return (
         <ReactQueryClientProvider>
             <html lang="en" data-theme={getTheme()}>
                 <body className="min-h-screen">
-                    <ToastProvider />
                     <GlobalLoading />
                     {children}
                 </body>

@@ -17,5 +17,6 @@ services:
       - "./app:/app"
       - ".data/node_modules:/app/node_modules"
       - ".data/yarn:/usr/local/share/.cache/yarn"
+      - "./app/outstatic/content:/app/outstatic/content"
     command:
       - "yarn && yarn dev"
