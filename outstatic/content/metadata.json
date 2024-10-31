@@ -1,26 +1,27 @@
 {
   "commit": "3ac517549c8425d824153fcd455f97213cf6a1d2",
-  "generated": "Thu, 31 Oct 2024 13:04:30 GMT",
+  "generated": "Thu, 31 Oct 2024 13:26:36 GMT",
   "metadata": [
     {
       "__outstatic": {
-        "commit": "878ca714a9d0f2e01550062855f857179ef8679a",
-        "hash": "3567651247",
-        "path": "outstatic/content/blocks/landing-main-hero-block.md"
+        "commit": "8edf05774d05174a68e8908cf491f7420a4cd684",
+        "hash": "71398225",
+        "path": "outstatic/content/pages/test-landing.md"
       },
       "author": {
         "name": "Alan",
         "picture": "https://avatars.githubusercontent.com/u/212621?v=4"
       },
-      "buttonLink": "#stuff",
-      "buttonText": "Get started",
-      "collection": "blocks",
+      "collection": "pages",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2024-10-31T12:01:36.766Z",
-      "slug": "landing-main-hero-block",
+      "publishedAt": "2024-10-31T11:56:40.420Z",
+      "seoDescription": "",
+      "seoKeywords": "",
+      "seoTitle": "",
+      "slug": "test-landing",
       "status": "published",
-      "title": "Main hero block"
+      "title": "Test Landing"
     },
     {
       "__outstatic": {
@@ -44,24 +45,23 @@
     },
     {
       "__outstatic": {
-        "commit": "8edf05774d05174a68e8908cf491f7420a4cd684",
-        "hash": "71398225",
-        "path": "outstatic/content/pages/test-landing.md"
+        "commit": "878ca714a9d0f2e01550062855f857179ef8679a",
+        "hash": "3567651247",
+        "path": "outstatic/content/blocks/landing-main-hero-block.md"
       },
       "author": {
         "name": "Alan",
         "picture": "https://avatars.githubusercontent.com/u/212621?v=4"
       },
-      "collection": "pages",
+      "buttonLink": "#stuff",
+      "buttonText": "Get started",
+      "collection": "blocks",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2024-10-31T11:56:40.420Z",
-      "seoDescription": "",
-      "seoKeywords": "",
-      "seoTitle": "",
-      "slug": "test-landing",
+      "publishedAt": "2024-10-31T12:01:36.766Z",
+      "slug": "landing-main-hero-block",
       "status": "published",
-      "title": "Test Landing"
+      "title": "Main hero block"
     }
   ]
 }
