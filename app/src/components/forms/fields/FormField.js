@@ -116,9 +116,9 @@ const FormField = function ({
         labelComponent = (
             <label
                 htmlFor={props.id || name}
-                className={twMerge(classNames('label', labelClasses, `text-${labelSize}`, { 'cursor-pointer': check }))}
+                className={twMerge(classNames('label', labelClasses, { 'cursor-pointer': check }))}
             >
-                {label}
+                <span className={twMerge('label-text', `text-${labelSize}`)}>{label}</span>
             </label>
         );
     }

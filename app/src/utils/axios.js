@@ -1,4 +1,3 @@
-import Cookies from 'js-cookie';
 import axios from 'axios';
 
 // Create axios instance.
@@ -14,15 +13,8 @@ export default axiosInstance;
 
 const fetcherWithOptions = ({ url, method, body }) => {
     const env = process.env.NODE_ENV;
-    const token = Cookies.get('csrftoken');
-    const config =
-        env === 'development'
-            ? {
-                  headers: {
-                      'X-CSRFToken': token,
-                  },
-              }
-            : {};
+    // const token = Cookies.get('csrftoken');
+    const config = env === 'development' ? {} : {};
     switch (method) {
         case 'OPTIONS': {
             return axiosInstance.options(url).then((res) => res.data);

@@ -5,6 +5,7 @@ x-common-spec: &common-spec
   restart: unless-stopped
   volumes:
     - &logs-volume "/var/log/olem_landing:/var/log/olem_landing"
+    - "./outstatic/content:/app/outstatic/content"
 
 services:
   node:

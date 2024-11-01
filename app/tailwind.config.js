@@ -13,6 +13,7 @@ module.exports = {
             fontFamily: {
                 sans: ['Montserrat'],
                 fancy: ['Barlow Condensed'],
+                logo: ['Permanent Marker'],
             },
             colors: {
                 orange: '#FDA769',
